@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['license-plate']
+
+roboflow:
+  workspace: two-wheeler
+  project: number-plate-kbzpm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/two-wheeler/number-plate-kbzpm/dataset/1

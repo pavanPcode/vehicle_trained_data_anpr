@@ -1,0 +1,5 @@
+train: Indian Vehicle Dataset/train/images
+val: Indian Vehicle Dataset/val/images
+
+nc: 1
+names: ["license_plate"]

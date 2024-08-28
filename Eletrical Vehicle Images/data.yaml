@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['green license plate']
+
+roboflow:
+  workspace: abhinavs-world
+  project: electric-vehicle-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abhinavs-world/electric-vehicle-dataset/dataset/1
